@@ -111,7 +111,7 @@ export default function LoginPage() {
 
           <div className="mt-8 pt-6 border-t border-stone-100 text-center">
             <p className="text-stone-500 text-sm">
-              Belum punya akun? <span className="text-stone-900 font-bold">Hubungi Admin/BK</span>
+              Belum punya akun? <Link to="/register" className="text-primary font-bold hover:underline">Daftar di sini</Link>
             </p>
           </div>
         </div>
